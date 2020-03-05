@@ -7,18 +7,18 @@ function suma(numero_uno,numero_dos){
  
 var resultado = suma(2,5)
  
-console.log(resultado);
+//console.log(resultado);
  
+
  
- 
-function sumaBien(){
-    // completar...
+function sumaBien(x,y,next){
+    next(x + y);
 }
   
 
-/* Descomentá esta parte para probar la función sumaBien
+// Descomentá esta parte para probar la función sumaBien
 sumaBien(2,5,function(resultado){
     console.log(resultado);
 })
-*/
+
 
